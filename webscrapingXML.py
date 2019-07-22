@@ -4,11 +4,6 @@ Created on Sat Jul 13 14:57:43 2019
 
 @author: dell
 """
-#How to import image from Internet
-#from IPython.display import Image , display
-#display(Image('https://pbs.twimg.com/profile_images/1070253948769054721/kvHt-oNl_400x400.jpg'))
-
-#We can use Python's requests library to make a valid HTTP "get" request to the 
 #Oscars' web server for the 90 Academy Awards which will return the raw HTML. 
 import requests
 from bs4 import BeautifulSoup
